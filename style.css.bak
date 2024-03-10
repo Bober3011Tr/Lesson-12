@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.box{
+	padding-top:50px;
+	border: 1px solid;
+    background-image:
+	url(./images/front_sky.png),
+	url(./images/middle_sky.png),
+	url(./images/back_sky.png),
+	url(./images/under_back_sky.png),
+	url(./images/front_grass.png),
+	url(./images/middle_grass.png),
+	url(./images/back_grass.png), linear-gradient(90deg, rgba(255,240,17,0.9304096638655462) 0%, rgba(225,216,20,1) 13%, rgba(202,198,22,1) 42%, rgba(1,42,39,1) 100%);
+    background-repeat: no-repeat;
+	height: 630px;
+	background-position: top, top, top , top, bottom, bottom, bottom;
+	background-size: 100%;
+	text-align:center;
+	width: 800px;
+}
+.trio{
+	margin-top:95px;
+}
+.text {
+  font-family: "Permanent Marker", cursive;
+	color:red;
+	text-shadow:3px -4px 5px black;
+	font-size: 80px;
+	text-align:center;
+}
